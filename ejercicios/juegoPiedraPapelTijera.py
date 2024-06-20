@@ -63,6 +63,7 @@ while continuar :
             print("Ganaste")
             print("Personal: Tijera")
             print("Computadora: Papel")
+            totalGanadas += 1
     
         elif (jugadaComputadora == 1) and (jugadaPersonal == 3) :
     
