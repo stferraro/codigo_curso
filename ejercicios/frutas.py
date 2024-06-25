@@ -1,6 +1,6 @@
 frutas = {}
 
-
+print(frutas)
 
 frutas['Platano'] = 1.50
 frutas['Manzana'] = 2.00

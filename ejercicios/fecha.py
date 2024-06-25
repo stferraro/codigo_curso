@@ -7,3 +7,8 @@ fecha['aaaa'] = input('Ingresa el año: ')
 print(fecha)
 
 print(f'{fecha.get("dd")}/{fecha.get("mm")}/{fecha.get("aaaa")}')
+
+
+
+
+
