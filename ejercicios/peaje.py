@@ -4,7 +4,7 @@ contadorVehiculos = [0, 0, 0]  # Inicializar contadorVehiculos con valores inici
 contadorPrecios = [0.0, 0.0, 0.0]  # Inicializar contadorPrecios con valores iniciales de cero
 
 while vehiculo != '0':
-    vehiculo = vehiculo.lower()
+    vehiculo = vehiculo.lower() 
     if vehiculo in vehiculos:
         if vehiculo == 'moto':
             print('Monto por moto: ' + str(vehiculos[vehiculo]))
@@ -28,6 +28,7 @@ while vehiculo != '0':
     vehiculo = input('Quieres registrar un vehiculo coloca 0 para terminar: ')
 
 print('Hasta luego')
+
 ganancia = sum(contadorPrecios)
 
 print('Monto total: ' + str(contadorPrecios[0] + contadorPrecios[1] + contadorPrecios[2]))

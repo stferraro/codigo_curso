@@ -40,4 +40,16 @@ while i < len(d):
         minus = d[i]
     i += 1
 print(minus)
+
+maxxx = float ('-inf')
+for i in d:
+    if i > maxxx:
+        maxxx = i
+print(maxxx)
+
+minnn = float('inf')
+for i in d:
+    if i < minnn:
+        minnn = i
+print(minnn)
     
